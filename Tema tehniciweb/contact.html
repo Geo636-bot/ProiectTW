@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact - BiteRush</title>
+<link rel="stylesheet" href="style.css" />
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/9f0a51b3ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <a href="#" class="logo">BiteRush</a>
+    <ul class="navbar">
+        <li><a href="index.html">Acasa</a></li>
+        <li><a href="menu.html">Meniu</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="login.html">Inregistreaza-te</a></li>
+    </ul>
+</header>
+<section id="contact">
+    <div class="contact-form">
+        <h2>Contacteaza-ne</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit" class="btn">Trimite</button>
+        </form>
+    </div>
+</section>
+<section id="contact">
+    <div class="footer">
+        <div class="main">
+            <div class="col">
+                <h4>Linkuri utile</h4>
+                <ul>
+                    <li><a href="#">Acasa</a></li>
+                    <li><a href="#about">Despre</a></li>
+                    <li><a href="menu.html">Meniu</a></li>
+                    <li><a href="#service">Servicii</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Serviciile noastre</h4>
+                <ul>
+                    <li><a href="#about">Despre noi</a></li>
+                    <li><a href="#service">Informatii</a></li>
+                    <li><a href="#">Politica</a></li>
+                    <li><a href="#">Termeni si conditii</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Contact</h4>
+                <div class="social">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
