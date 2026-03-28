@@ -1,4 +1,4 @@
-# BiteRush - Proiect Tehnici Web (ProiectTW)
+# BiteRush - Proiect Tehnici Web (Frontend)
 
 BiteRush este un website de prezentare responsiv creat pentru un restaurant, oferind o interfață modernă și prietenoasă pentru utilizatori. Proiectul include pagini pentru meniu, detalii despre servicii, date de contact și un sistem dinamic de autentificare/înregistrare.
 
